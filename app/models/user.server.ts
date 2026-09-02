@@ -195,7 +195,7 @@ export async function manipulateUserInventory({
         where: { id: userId }
       });
     },
-    { timeout: 10_000 }
+    { timeout: 60_000 }
   );
 }
 
